@@ -46,3 +46,4 @@ There is no design available for this exercise.
 Tips & Tricks 
 Start with making a list of To-Dos for yourself. Which functionalities are you making? Are those in separate functions? Which steps are going to be taken? Write them down.
 Are you doing your exercise in the browser? Use the prompt() and alert() functions from JavaScript. For every message ask yourself, do I want the user to tell me something, or do I want to tell the user something?# peggyHermansGuessTheNumberGame
+# peggyHermansGuessTheNumberGame

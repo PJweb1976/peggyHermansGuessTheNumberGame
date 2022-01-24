@@ -9,15 +9,26 @@
 </head>
 <body>
     <form name="contact" method="POST" data-netlify="true"></form>
+    <main class="container">
     <header>
         <h1>Guess the number game</h1>
     </header>
-    <main class="container">
-    <p> Guess a number between 1 - 25 </p>
-
-
-</main>
+    <body>
+    <h2> Guess a number between 1 - 25 </h2>
+    <h3> click the button to start the game</h3>
+   
+    </body>
+   
+    <form>
+        <input type="text" placeholder="number" onblur="getVal()">
+        <button type="guessNumber">Click to Start game</button>
+    </form>
+    <p class="message1">Number of Guesses: 0</p>
+    <p class="message2">Guessed numbers are: None</p>
+    <p class="message3">Guessed numbers are: None</p>
+    <br />
     <script type="text/javascript" src="index.js">            
     </script>
+    </main>
 </body>
 </html>
